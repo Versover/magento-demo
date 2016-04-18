@@ -1,0 +1,21 @@
+<config>
+    <global>
+        <models>
+            <demo>
+                <class>Versover_Demo_Model</class>
+            </demo>
+        </models>
+
+        <blocks>
+            <demo>
+                <class>Versover_Demo_Block</class>
+            </demo>
+        </blocks>
+
+        <helpers>
+            <demo>
+                <class>Versover_Demo_Helper</class>
+            </demo>
+        </helpers>
+    </global>
+</config>
