@@ -1,5 +1,5 @@
 <config>
-    <global>
+    <global> <!-- frontend and backend -->
         <models>
             <demo>
                 <class>Versover_Demo_Model</class>
@@ -17,5 +17,17 @@
                 <class>Versover_Demo_Helper</class>
             </demo>
         </helpers>
+
+        <events>
+            <customer_login>
+                <observers>
+                    <demo>
+                        <type>model</type>
+                        <class>demo/observer</class>
+                        <method>logCustomer</method>
+                    </demo>
+                </observers>
+            </customer_login>
+        </events>
     </global>
 </config>

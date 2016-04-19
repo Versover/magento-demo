@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Versover_Catalog>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Versover_Catalog>
+    </modules>
+</config>
