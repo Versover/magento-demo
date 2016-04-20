@@ -2,8 +2,8 @@
 
 class Versover_Catalog_Model_Category extends Mage_Catalog_Model_Category
 {
-	public function getChildren()
-	{
-		return $this->getResource()->getChildren($this, false);
-	}
+    public function getChildren()
+    {
+        return $this->getResource()->getChildren($this, false);
+    }
 }
